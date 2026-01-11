@@ -1,0 +1,25 @@
+body{
+    margin: 20px;
+}
+.pic{
+width: 100px;
+
+}
+.card{
+      border: 1px doted blue;
+ width: 400px;
+ margin-left: auto;
+ margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom:10px solid #d8cefe;
+
+}
+
+.blueborder{
+       border: 1px dotted blue;
+}
