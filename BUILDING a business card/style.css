@@ -36,7 +36,7 @@ border:2px solid rgb(66, 101, 101);
 .card h4,
 .card p {
     margin: 10px;
-    font-family: monospace;
+    font-family: monospace ;
 }
 .card {
     transition: all 0.3s ease;
