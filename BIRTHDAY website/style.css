@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    font-family: "Happy Monkey" ,cursive;
+    background: #a2d2ff;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pic{
+width: 150px;
+height: 150px;
+margin-top: 25px;
+border-radius: 50%;
+object-fit: cover;
+border:3px solid rgb(231, 36, 36);
+margin-bottom: px;
+}
+h2 ,p{
+    background: #14a3c3;
+    padding: 3px 5px;
+    border: 1px solid #14a3c3;
+    border-radius: 4px;
+  
+  
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.age{
+    margin-bottom: 10px;
+}
+.date{
+    margin: 0px;
+}
