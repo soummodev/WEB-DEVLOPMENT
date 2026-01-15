@@ -1,4 +1,4 @@
-body{
+.sec{
     text-align: center;
     font-family: "Happy Monkey" ,cursive;
     background: #a2d2ff;
@@ -7,6 +7,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+body{
+        text-align: center;
+    font-family: "Happy Monkey" ,cursive;
+    background: #a2d2ff;
+    color: #ffffff;
 }
 .pic{
 width: 150px;
@@ -35,4 +41,79 @@ h2 ,p{
 }
 .date{
     margin: 0px;
+}
+.hi{
+    background: #a2d2ff ;
+     text-shadow: 2px 2px 2px black;
+}
+h3{
+    margin-bottom: 7px;
+}
+h4{
+    margin-top: 0px;
+}
+.giftpic {
+    width: 500px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 6px;
+    background-image: url("../HTML and CSS/images/gift.JPG");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto; /* Centers the div horizontally */
+    display: block; /* Ensures proper centering */
+}
+.giftpi{
+        width: 500px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 6px;
+    background-image: url("../HTML and CSS/images/gift.JPG");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto; /* Centers the div horizontally */
+    display: block; /* Ensures proper centering */
+}
+.giftp{
+        width: 500px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 6px;
+    background-image: url("../HTML and CSS/images/gift.JPG");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto; /* Centers the div horizontally */
+    display: block; /* Ensures proper centering */
+}
+.iftp{
+        width: 500px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 6px;
+    background-image: url("../HTML and CSS/images/gift.JPG");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto; /* Centers the div horizontally */
+    display: block; /* Ensures proper centering */
+}
+.gift{
+    margin-top: 50px;
+}
+/*hover 
+a:hover{
+background-color: red;
+
+}
+*/
+.giftpic:hover{
+    background-image:url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm91MGF2ZWd3NmE0ZmFqNnBldmFqczI5em04b3I0aG50bmZ2cDkwcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/oF6TOssuzqVmbYE70d/200w.webp");
+}
+.giftpi:hover{
+    background-image:url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExem5hc3BzZng2b3l1ZHlyNDNtMzk0NzRnZXEyNjJiMWpuNHE1bWZ4ZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/d2IOQ1bz26TClOLnpx/giphy.webp");
+}
+.giftp:hover{
+    background-image:url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmQ5YzZ4aXB2NnNueXZlY21vNWN2OWw0azh3YWFpcnB2eHNta2pnMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3PzmBpZt0iimrcWvfV/200w.webp");
+}
+.iftp:hover{
+    background-image:url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2tjY3k5NWVubDZ6czZ0bmZicXhnOGkzazJ2YWx6MDJuNzl6N2RpeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KmxmoHUGPDjfQXqGgv/200.webp");
 }
