@@ -14,8 +14,29 @@ body{
     border-radius: 3px;
     background: rgb(7, 209, 244);
     color: rgb(73, 12, 171);
+     display: block; /* Makes buttons appear one below the other */
+    margin: 10px auto;
+    
+ 
  
 }
 #increment-btn:hover{
     background: rgb(241, 6, 6);
+}
+
+#save{
+    border: 2px solid rgb(7, 209, 244) ;
+    border-radius: 3px;
+    background: rgb(7, 209, 244);
+    color: rgb(73, 12, 171);
+    width: 90px;
+ 
+ 
+}
+#save:hover{
+    background: rgb(241, 6, 6);
+}
+#p{
+    color: rgb(14, 2, 2);
+    
 }
