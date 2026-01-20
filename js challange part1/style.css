@@ -1,0 +1,30 @@
+.pic{
+    width:200px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0px auto;
+}
+.t{
+  
+   text-align: center;
+ 
+}
+.btn{
+    text-align: center;
+ /* Ensure margin works */
+ margin: 10px auto;
+     display: flex; /* Change to inline-flex for better margin handling */
+ justify-content: center;
+ align-items: center;
+ border: 1px solid black;
+ border-radius: 10px;
+ width: 100px;
+ height: 25px;
+ background: rgb(59, 136, 245);
+
+}
+p{
+    text-align: center;
+    color: red;
+}
