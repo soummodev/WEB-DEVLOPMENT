@@ -12,7 +12,10 @@ let sumel = document.getElementById("sum-el")
 //let sumel = document.querySelector("sum-el"); id =# , class = .
 console.log(sumel)
 let cardel = document.getElementById("card-el")
-
+let playername = "per"
+let playerchips = 145
+let playerel = document.getElementById("player-el")
+playerel.textContent = playername + ":" + " $ " + playerchips
 function getrandomcard() {
    
   let random = Math.floor(Math.random() * 13) + 1;
@@ -39,11 +42,14 @@ function start() {
 }
 
 function card() {
-  let card = getrandomcard();
-  sum += card
-  cards.push(card)
-  start()
+  if (sum < 22) {
+    let card = getrandomcard();
+  
+    sum += card
+    cards.push(card)
 
+    start()
+  }
     cardel.textContent = "Cards: "
   for (let i = 0; i < cards.length; i++){
       cardel.textContent += cards[i] + " "

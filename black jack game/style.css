@@ -42,3 +42,6 @@ p{
 .btns:hover{
  box-shadow: 2px 2px 2px aqua ;
 }
+.p{
+    color: rgb(17, 205, 33);
+}

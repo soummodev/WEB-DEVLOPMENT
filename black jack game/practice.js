@@ -26,3 +26,15 @@ function ludo() {
 }
 let r = ludo()
 console.log(r)
+//objects
+let course = {
+    title: "learn csss",
+    creator: "soummo",
+    length: 63,
+    level: 2,
+    tags:["html","css"]
+    
+
+
+}
+console.log(course.level)
