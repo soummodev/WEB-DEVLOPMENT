@@ -1,0 +1,44 @@
+body{
+    background: rgb(11, 1, 44);
+
+}
+.g{
+    margin-top: 100px;
+    color: white;
+}
+.r{
+    color: rgb(101, 239, 101);
+    margin-bottom: 50px;
+}
+.c{
+    margin-top: 10px;
+    color: white;
+}
+.first1{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.btn{
+    margin-left: 40px;
+    width: 150px;
+    padding: 5px;
+    background-color: rgb(72, 205, 72);
+    margin-bottom: 50px;
+    border: 1px solid ;
+    border-radius: 5px;
+   
+}
+
+p{
+    color: rgb(93, 227, 93);
+}
+.pass{
+    display: flex;
+    justify-content: space-around;
+}
+.g, .r {
+    margin: 0;
+    padding: 0;
+    ;
+}
