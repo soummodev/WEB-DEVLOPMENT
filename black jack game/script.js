@@ -1,3 +1,8 @@
+let player = {
+  name: "soummo",
+  chips: 145,
+
+}
 let first = getrandomcard();
 let second = getrandomcard();
 let cards = [first, second]
@@ -15,7 +20,7 @@ let cardel = document.getElementById("card-el")
 let playername = "per"
 let playerchips = 145
 let playerel = document.getElementById("player-el")
-playerel.textContent = playername + ":" + " $ " + playerchips
+//playerel.textContent = player.name + ":" + " $ " + player.chips
 function getrandomcard() {
    
   let random = Math.floor(Math.random() * 13) + 1;
@@ -49,9 +54,15 @@ function card() {
     cards.push(card)
 
     start()
+
+  }
+  else if (sum > 22) {
+    playerel.textContent = player.name + ":" + " $ " + player.chips;
   }
     cardel.textContent = "Cards: "
   for (let i = 0; i < cards.length; i++){
       cardel.textContent += cards[i] + " "
   }
+
 }
+
