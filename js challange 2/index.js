@@ -25,3 +25,7 @@ function game() {
     return hands[point]
 }
 console.log(game())
+let hi = "4"
+let pi = "9"
+let sum = Number(hi) + Number(pi)
+console.log(sum)
