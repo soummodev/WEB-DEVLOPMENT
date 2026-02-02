@@ -1,4 +1,11 @@
 let myleads = []
+//let myleads is a string
+//myleads = JSON.parse(myleads)
+//myleads.push("www.www")
+//myleads = JSON.stringify(myleads)
+//localstorage.setItem()
+//localstorage.getItem()
+
 const inputel = document.getElementById("input-el")
 const ulel = document.getElementById("ul-el")
 
@@ -9,6 +16,9 @@ inputbtn.addEventListener("click", function () {
     renderlist()
     
 });
+
+
+
 function renderlist() {
     let listitem = ""
     for (let i = 0; i < myleads.length; i++){
