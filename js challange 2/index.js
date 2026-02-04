@@ -35,3 +35,7 @@ console.log(Boolean(100))//true
 console.log(Boolean(null))//false
 console.log(Boolean([0]))//true
 console.log(Boolean(-0))//false
+const totalprice = 439.09373737773737
+console.log(totalprice.toFixed(2))
+const totalprice2 = "439.09373737773737";
+console.log(Number(totalprice.toFixed(2)));
