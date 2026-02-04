@@ -12,6 +12,28 @@ body{
   padding: 10px 20px;
 
 }
+.sbtn{
+       background: #5f9341;
+   color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+}
+.btnd{
+       background:white;
+   color:  #5f9341;
+  font-weight: bold;
+  border: 2px solid  #5f9341;
+  padding: 10px 20px;
+}
+
+.btnd:hover{
+      box-shadow: 10px 10px 10px rgb(216, 205, 205);
+}
+.sbtn:hover{
+     box-shadow: 10px 10px 10px rgb(216, 205, 205);
+}
+
 .btn:hover{
     box-shadow: 10px 10px 10px rgb(216, 205, 205);
 }
