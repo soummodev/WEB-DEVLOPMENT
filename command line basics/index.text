@@ -1,0 +1,23 @@
+pwd -> the path
+ls -> the content of the directory 
+clear -> clear the terminal
+cd -> change directory
+
+//creat and delet files
+creat -> touch filename.txt
+delet -> rm filename.txt
+// creat and delt directories
+creat -> mkdir directory_name
+delet -> rmdir cities   
+for not emnty delet  -> rm -r directory_name
+//write to flies
+echo 'text'
+if ypu want to write in a files
+echo 'text' > filename.txt
+creat file 
+echo 'text' > filename.txt 
+ > this rewrites in the file
+ so if i want to append something i need to use >> operator
+ //Read from the files 
+ cat file_name.txt
+ 
