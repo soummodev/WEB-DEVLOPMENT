@@ -1,0 +1,11 @@
+API = application programming interface 
+request , respose
+if   it respond then it will send 200 ok
+if not then it will send 403 forbidden
+500 internal server error
+3 things client might request from a server 
+1..JSON array of suggested vidio 
+2..vidio stream 
+3..HTML page
+
+2
