@@ -8,4 +8,7 @@ if not then it will send 403 forbidden
 2..vidio stream 
 3..HTML page
 
-2
+//status code basics 
+200-299 = successful response:TRUE
+404 = not found : false 
+500 = server error 
