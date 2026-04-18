@@ -61,7 +61,7 @@ catch (err) {
 fetch("https://example.com/api/posts", {
   method: "POST",
   headers: {
-    "Content-type": "application/json; charset=UTF-8", // সার্ভারকে জানাচ্ছি এটা JSON ডাটা
+    "Content-type": "application/json; charset=UTF-8", 
   },
   body: JSON.stringify({
     title: "My Day",
