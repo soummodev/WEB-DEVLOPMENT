@@ -16,39 +16,37 @@ obj2.__proto__ = student;
 obj2.printmarks1()
 //if object and prototype has the same function object er tai call hobe
 //class
-class car {
+class CarBasic {
   brand;
   constructor() {
     console.log("default constructor called");
-  
   }
   start() {
-    console.log("stary");
+    console.log("start");
   }
   stop() {
     console.log("stop");
   }
-    set(brand) {
-             this.brand = brand;
-     }
+  set(brand) {
+    this.brand = brand;
+  }
   view() {
     console.log(this.brand);
   }
 }
-let obj4 = new car();
+let basicCar1 = new CarBasic();
+let basicCar2 = new CarBasic();
+basicCar2.set("soummo");
+basicCar2.view();
 
-let obj5 = new car();
-obj5.set("soummo")
-obj5.view();
-
-class car{
+class car {
     brand;
     constructor(brand) {
         console.log("default constructor called")
         this.brand = brand;
     }
     start() {
-        console.log("stary")
+        console.log("start")
     }
     stop() {
         console.log("stop")
@@ -82,9 +80,9 @@ class rubber extends pencil{
         console.log("bye")
     }
 }
-obj2 = new rubber()
-obj2.hello()
-obj2.hi()
+const rubberObj = new rubber();
+rubberObj.hello();
+rubberObj.hi();
 //if parent class and child class has function of same name then the function of child will be invock
 //if we use constractor in parent and child then we should use super() kewword
 class person{
