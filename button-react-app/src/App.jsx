@@ -2,6 +2,14 @@ import Button from "./assets/button/button.jsx"
 import Student from "./assets/props/student.jsx"
 import User from "./assets/crendering/user.jsx"
 import List from "./assets/list/list.jsx"
+import Counter from "./assets/counter/counter.jsx"
+import C from "./assets/counter/counter1.jsx";
+import Component from "./assets/onchange/component.jsx"
+import Cpicker from "./assets/cpicker/cpiker.jsx"
+import Object from "./assets/object/object.jsx"
+import MyComponent from "./assets/myobject/my.jsx"
+import Car from "./assets/addcar/acar.jsx"
+
 function App() {
   const fruits = [
     { id: 1, name: "apple", calories: 95 },
@@ -36,7 +44,14 @@ function App() {
       {fruits.length > 0 && <List items={fruits} category="Fruits" />}
       {vegetables.length > 0 && (
         <List items={vegetables} category="Vegetables" />
-      ) }
+      )}
+      <Counter />
+      <C />
+      <Component />
+      <Cpicker />
+      <Object />
+      <MyComponent />
+      <Car />
     </>
   );
 
