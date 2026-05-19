@@ -9,6 +9,8 @@ import Cpicker from "./assets/cpicker/cpiker.jsx"
 import Object from "./assets/object/object.jsx"
 import MyComponent from "./assets/myobject/my.jsx"
 import Car from "./assets/addcar/acar.jsx"
+import To from "./assets/todolist/todo.jsx"
+import Effect from "./assets/useeffect/effect.jsx"
 
 function App() {
   const fruits = [
@@ -52,6 +54,8 @@ function App() {
       <Object />
       <MyComponent />
       <Car />
+      <To />
+      <Effect />
     </>
   );
 

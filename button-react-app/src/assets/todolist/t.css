@@ -1,0 +1,106 @@
+.todo-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.delete-task {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+.move-up {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+.move-down {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+.add-task{
+       font-size: 1rem;
+    font-weight: bold;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+/* Add button */
+.add-task {
+    background-color: #28a745;
+}
+.add-task:hover {
+    background-color: #218838;
+}
+
+/* Delete button */
+.delete-task {
+    background-color: #dc3545;
+}
+.delete-task:hover {
+    background-color: #c82333;
+}
+
+/* Move buttons */
+.move-up,
+.move-down {
+    background-color: #007bff;
+}
+.move-up:hover,
+.move-down:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    font-size: 1.2rem;
+    margin: 10px auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
