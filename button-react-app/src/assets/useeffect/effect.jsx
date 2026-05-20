@@ -16,7 +16,7 @@ function Effect() {
     },[count])
     return (
       <div>
-        <p style>count : {count}</p>
+<p>count : {count}</p>
         <button onClick={addc}>Add</button>
         <button onClick={subc}>Subtract</button>
         <button onClick={cc}>Change Color</button>

@@ -11,6 +11,11 @@ import MyComponent from "./assets/myobject/my.jsx"
 import Car from "./assets/addcar/acar.jsx"
 import To from "./assets/todolist/todo.jsx"
 import Effect from "./assets/useeffect/effect.jsx"
+import Change from "./assets/hwchange/change.jsx"
+import Com from "./assets/com/com.jsx"
+import Comb from "./assets/com/comb.jsx"
+
+
 
 function App() {
   const fruits = [
@@ -56,6 +61,8 @@ function App() {
       <Car />
       <To />
       <Effect />
+      <Change />
+      <Com />
     </>
   );
 

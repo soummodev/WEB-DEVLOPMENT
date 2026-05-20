@@ -1,0 +1,31 @@
+.box {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: #1e1e2f;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box h1 {
+  margin-bottom: 10px;
+  color: #00d4ff;
+}
+
+.box h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.box2 {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #2c2c44;
+  color: #ffcc00;
+  font-weight: bold;
+}
